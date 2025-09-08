@@ -1,6 +1,5 @@
 "use strict";
 (() => {
-  // ns-hugo-params:<stdin>
   var stdin_default = { prefix: "hb-", sticky: true };
 
   // <stdin>
