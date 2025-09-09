@@ -12245,7 +12245,7 @@ div.hb-blog-post-content pre {
   background-color: var(--hb-secondary-bg);
   padding: 1rem;
 }
-div.hb-blog-post-content h1,
+/* div.hb-blog-post-content h1,
 div.hb-blog-post-content .h1,
 div.hb-blog-post-content h2,
 div.hb-blog-post-content .h2,
@@ -12257,8 +12257,8 @@ div.hb-blog-post-content h5,
 div.hb-blog-post-content .h5,
 div.hb-blog-post-content h6,
 div.hb-blog-post-content .h6 {
-  margin-top: 2rem !important;
-}
+  margin-top: 2rem;
+} */
 div.hb-blog-post-content hr {
   margin: 1.5rem 0;
 }
@@ -12671,7 +12671,7 @@ html {
   }
 }
 
-.hb-blog-post-content h2:not(:first-child),
+/* .hb-blog-post-content h2:not(:first-child),
 .hb-blog-post-content .h2:not(:first-child) {
   margin-top: 3rem;
 }
@@ -12686,7 +12686,7 @@ html {
 .hb-blog-post-content h6,
 .hb-blog-post-content .h6 {
   margin-top: 0.5rem;
-}
+} */
 .hb-blog-post-content > *:last-child {
   margin-bottom: 0 !important;
 }
@@ -13082,11 +13082,11 @@ body {
 }
 
 .carousel-control-prev-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0'/%3e%3c/svg%3e")
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0'/%3e%3c/svg%3e");
 }
 
 .carousel-control-next-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708'/%3e%3c/svg%3e")
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708'/%3e%3c/svg%3e");
 }
 
 .carousel-indicators {
