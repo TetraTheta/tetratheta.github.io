@@ -13501,3 +13501,12 @@ h6:hover .anchor,
   height: 4px;
   z-index: 1100;
 }
+
+/* Custom */
+.hb-blog-post-intro hr {
+  margin-bottom: 0;
+}
+
+.hover-secondary:hover {
+  background: var(--hb-secondary);
+}
